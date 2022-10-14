@@ -4,7 +4,7 @@
 #displays good luck for the 8th loop iteration
 
 count=1
-while [ $count -lt 10 ]
+while [ $count -le 10 ]
 do
 	if [ $count -eq 4 ]
 	then
