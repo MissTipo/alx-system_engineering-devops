@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
+#get docker to run on apache
 # Give me a page
 /etc/init.d/apache2 restart
