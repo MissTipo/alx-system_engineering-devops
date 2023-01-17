@@ -8,6 +8,7 @@ from sys import argv
 
 
 if __name__ == '__main__':
+    """ensures code isn't executed when imported"""
     req = get('https://jsonplaceholder.typicode.com/users/{}'.format(argv[1]))
     u = req.json()
     user_name = u.get('name')
