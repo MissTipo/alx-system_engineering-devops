@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Exports a file in csv format"""
 from requests import get
 from sys import argv
 import csv
