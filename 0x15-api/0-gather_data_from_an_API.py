@@ -24,8 +24,8 @@ if __name__ == '__main__':
         if task['completed']:
             completed += 1
             completed_task.append(task['title'])
-    response = f'Employee {user_name} is done with'
-    'tasks ({completed}/{total_tasks}):'
+    response = f'Employee {user_name} is done with:'
+    'tasks ({completed}/{total_tasks})'
     print(response)
     for task in completed_task:
         print(f'\t {task}')
